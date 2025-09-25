@@ -2,12 +2,12 @@
 
 This project implements a machine learning pipeline to classify melanoma cases based on clinical data. It provides comprehensive preprocessing, model training, validation, and performance evaluation using multiple classifiers.
 
-Features and Workflow
+# Features and Workflow
 🚀 Data Upload: Interactive CSV upload capability for melanoma clinical dataset.
 
 🏷️ Label Processing: Automatic or manual detection of the binary target column ensuring numeric encoding (benign vs. malignant).
 
-🧹 Preprocessing Pipeline:
+# 🧹 Preprocessing Pipeline:
 
 Separates numerical and categorical features.
 
@@ -17,7 +17,7 @@ Applies standard scaling to numerical columns.
 
 Uses one-hot encoding for categorical columns.
 
-🤖 Models Compared:
+# 🤖 Models Compared:
 
 Logistic Regression with balanced class weights.
 
@@ -27,9 +27,10 @@ Support Vector Machine (RBF kernel) with probabilistic outputs and class balanci
 
 K-Nearest Neighbors with 5 neighbors.
 
-🔄 Cross-Validation: Stratified 5-fold cross-validation to maintain balanced class distributions in training and validation folds.
+# 🔄 Cross-Validation: 
+Stratified 5-fold cross-validation to maintain balanced class distributions in training and validation folds.
 
-📊 Performance Metrics:
+# 📊 Performance Metrics:
 
 Accuracy
 
@@ -45,13 +46,13 @@ ROC AUC
 
 Metrics include mean and standard deviation across folds for robustness.
 
-📈 Visualization:
+# 📈 Visualization:
 
 Comparative bar charts for model performance metrics.
 
 Confusion matrix heatmaps for visualizing classification errors.
 
-🎯 Final Training:
+# 🎯 Final Training:
 
 Best models retrained on the entire dataset.
 
